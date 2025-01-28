@@ -399,3 +399,12 @@ svg {
     font-size-adjust: 12px;
     margin-top: 20px;
 }
+@media screen and (max-width: 770px) {
+    .footer-left, .footer-right {
+        flex-basis: 100%;
+        font-size: 14px;
+    }
+    .footer-img {
+        top: 25%;
+    }
+}
